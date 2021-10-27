@@ -1,1 +1,43 @@
 
+<div class="container container-cc">
+
+
+        <ul class="breadcrumb">
+            <li><a href="https://vyondhosterremastered.000webhostapp.com/create">Make a video</a></li> > <li class="active">Create a video</li>
+     
+        </ul>
+
+<div>
+    <div id="char_creator_client" align="center"><object data="https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/cc.swf" type="application/x-shockwave-flash" id="char_creator" width="960" height="600"><param name="align" value="middle"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="wmode" value="transparent"><param name="flashvars" value="apiserver=https%3A%2F%2Fgoanimate4schools.herokuapp.com%2F&amp;m_mode=school&amp;bs=adam&amp;isLogin=Y&amp;isEmbed=0&amp;ctc=go&amp;tlang=en_US&amp;storePath=https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fstore%2Fa898715fd1605935%2F%3Cstore%3E&amp;clientThemePath=https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fstatic%2F1a50774cfcc66a3c%2F%3Cclient_theme%3E&amp;appCode=go&amp;page=&amp;siteId=go&amp;userId=00EDZP3Cu0aw&amp;themeId=family&amp;ut=30"><param name="movie" value="https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/cc.swf"></object></div>
+</div>
+<script>
+var character = "adam"; // change to "adam", "bob" , "eve" , or "rocky" depending on who you want to start with.
+
+$('#char_creator_client').flash({
+   id: "char_creator",
+   swf: "https://josephcrosmanplays532.github.io/animation/414827163ad4eb60/cc.swf",
+   height: 600,
+   width: 960,
+
+   align: "middle",
+   allowScriptAccess: "always",
+   allowFullScreen: "true",
+   wmode: "transparent",
+
+   hasVersion: "10.3",
+
+   flashvars: {"apiserver":"https:\/\/goanimate4schools.herokuapp.com\/","m_mode":"school","bs":character,"isLogin":"Y","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https:\/\/josephcrosmanplays532.github.io\/store\/a898715fd1605935\/<store>","clientThemePath":"https:\/\/josephcrosmanplays532.github.io\/static\/1a50774cfcc66a3c\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"00EDZP3Cu0aw","themeId":"family","ut":30}});
+function goSubscribe()
+{
+    var url = '/business/videoplans?hook=cc.site';
+    window.open(url, 'goSubscribe');
+}
+
+function characterSaved()
+{
+    SetCookie('cc_saved', '1', 1, '/');
+    window.location = '/vyond4schools/character_creator/family';
+}
+</script>
+
+</div>
